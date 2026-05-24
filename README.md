@@ -6,6 +6,19 @@ Native map view, markers with React-rendered content, polylines / polygons / cir
 clustered placemarks, search / suggest / reverse geocode, and user location — all wired
 through Fabric ViewComponents and TurboModules on RN 0.85+.
 
+<p align="center">
+  <img src="docs/media/android-gif.gif" width="320" alt="Demo: search, cluster zoom, photo walk overlay" />
+</p>
+
+<table>
+  <tr>
+    <td><img src="docs/media/ios1.png" width="220" alt="iOS — all 110 photo spots collapsed into one cluster on the city overview" /></td>
+    <td><img src="docs/media/ios2.png" width="220" alt="iOS — clusters break apart into hotspots with the photo walk polyline" /></td>
+    <td><img src="docs/media/android1.jpg" width="220" alt="Android — same demo, city overview" /></td>
+    <td><img src="docs/media/android2.jpg" width="220" alt="Android — zoomed in, clusters split by hotspot" /></td>
+  </tr>
+</table>
+
 ## Requirements
 
 - React Native **0.85+** with the **New Architecture** enabled (Fabric + TurboModules)
