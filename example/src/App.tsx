@@ -1,23 +1,18 @@
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { YandexMapView } from 'react-native-yandex-map';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <YandexMapView color="#32a852" style={styles.box} />
+      <YandexMapView
+        style={styles.map}
+        initialRegion={{ lat: 55.751244, lon: 37.618423, zoom: 12 }}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
-  },
+  container: { flex: 1 },
+  map: { flex: 1 },
 });
