@@ -1,1 +1,18 @@
 export { YandexMapView } from './YandexMapView';
+export type { YandexMapProps, YandexMapRef } from './YandexMapView';
+export { Marker } from './Marker';
+export type { MarkerProps } from './Marker';
+export { Polyline } from './Polyline';
+export type { PolylineProps } from './Polyline';
+export { Polygon } from './Polygon';
+export type { PolygonProps } from './Polygon';
+export { Circle } from './Circle';
+export type { CircleProps } from './Circle';
+export { ClusteredMarkers } from './ClusteredMarkers';
+export type { ClusteredMarkersProps } from './ClusteredMarkers';
+export { Search, SearchType } from './Search';
+export type { SearchHit, SearchOptions } from './Search';
+export { Suggest, SuggestType } from './Suggest';
+export type { SuggestItem, SuggestOptions } from './Suggest';
+export { YandexMap, default as default } from './YandexMap';
+export * from './types';
