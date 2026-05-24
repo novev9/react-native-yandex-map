@@ -10,11 +10,13 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => min_ios_version_supported }
-  s.source       = { :git => "https://github.com/novev9/react-native-yandex-map.git", :tag => "#{s.version}" }
+  s.platforms    = { :ios => "13.0" }
+  s.source       = { :git => "https://github.com/novev9/react-native-yandex-map.git", :tag => "v#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift,cpp}"
   s.private_header_files = "ios/**/*.h"
+
+  s.dependency "YandexMapsMobile", "4.36.0-full"
 
   install_modules_dependencies(s)
 end

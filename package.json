@@ -4,6 +4,8 @@
   "description": "React Native Fabric binding for Yandex MapKit Mobile SDK (New Architecture)",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
+  "react-native": "./src/index.tsx",
+  "source": "./src/index.tsx",
   "exports": {
     ".": {
       "source": "./src/index.tsx",
@@ -43,7 +45,15 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "yandex",
+    "yandex-map",
+    "yandex-mapkit",
+    "map",
+    "maps",
+    "fabric",
+    "new-architecture",
+    "turbo-module"
   ],
   "repository": {
     "type": "git",
@@ -86,8 +96,8 @@
     "typescript": "^6.0.2"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": ">=19.0.0",
+    "react-native": ">=0.85.0"
   },
   "workspaces": [
     "example"
@@ -122,6 +132,21 @@
       "components": {
         "YandexMapView": {
           "className": "YandexMapView"
+        },
+        "YandexMapMarker": {
+          "className": "YandexMapMarker"
+        },
+        "YandexMapPolyline": {
+          "className": "YandexMapPolyline"
+        },
+        "YandexMapPolygon": {
+          "className": "YandexMapPolygon"
+        },
+        "YandexMapCircle": {
+          "className": "YandexMapCircle"
+        },
+        "YandexMapClusteredMarkers": {
+          "className": "YandexMapClusteredMarkers"
         }
       }
     }
