@@ -61,6 +61,10 @@ buck-out/
 android/app/libs
 android/keystores/debug.keystore
 
+# Android signing — keystores must never be committed
+*.keystore
+*.jks
+
 # Yarn
 .yarn/*
 !.yarn/patches
