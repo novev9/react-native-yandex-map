@@ -6,9 +6,16 @@ Native map view, markers with React-rendered content, polylines / polygons / cir
 clustered placemarks, search / suggest / reverse geocode, and user location — all wired
 through Fabric ViewComponents and TurboModules on RN 0.85+.
 
-<p align="center">
-  <img src="docs/media/android-gif.gif" width="320" alt="Demo: search, cluster zoom, photo walk overlay" />
-</p>
+<table>
+  <tr>
+    <td align="center"><b>iOS</b></td>
+    <td align="center"><b>Android</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/media/ios-gif.gif" width="280" alt="iOS demo: search, cluster zoom, photo walk overlay" /></td>
+    <td><img src="docs/media/android-gif.gif" width="280" alt="Android demo: search, cluster zoom, photo walk overlay" /></td>
+  </tr>
+</table>
 
 <table>
   <tr>
